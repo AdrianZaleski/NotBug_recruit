@@ -14,7 +14,6 @@
     --buttonColor: black;
 }
 
-
 html,
 body {
     padding: 0;
@@ -34,8 +33,6 @@ strong {
 }
 
 p,
-li,
-span,
 label,
 input {
     color: var(--secondaryText);
@@ -105,6 +102,11 @@ h5 {
     text-decoration: none;
     color: #4b5156;
     margin-left: 10px;
+}
+
+.post-text {
+    width: 300px;
+    font-style: italic;
 }
 
 .delete-link {
