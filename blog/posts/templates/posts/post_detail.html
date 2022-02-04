@@ -1,0 +1,27 @@
+{% extends 'posts/main.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail View</title>
+</head>
+
+<body>
+    <div class="header-bar">
+        <h1>Post: {{ post.title }}</h1>
+        <a href="{% url 'posts' %}">&#8592; Main paige</a>
+    </div>
+
+    <div class="card-body">
+        <h5>Post content: </h5>
+        <h3>{{ post.content }}</h3>
+        <p></p>
+        <h5>Created by: <i>{{ post.user }} </i></h5>
+    </div>
+
+</body>
+</html>
+
+{% endblock content%}
