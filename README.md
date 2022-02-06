@@ -16,3 +16,12 @@ Functionality below:
 - You can create new accounts from page form
 
 
+Directory: to_do_app: 
+This is task 2.1 - Flask app - first try with this framework. 
+I have not made an user interface, only tested responses using Postman. Database used - SQLite 
+Funcionality: 
+- Can check all to do things in database - if no tasks, there is appropriate comment. 
+- Check data for one task - according for ID - if no ID there is feedback for no ID in the database.
+- Add new task - check if there is ID already taken
+- Update existing task - also with check for ID
+- Delete task - check for existing ID in database.
