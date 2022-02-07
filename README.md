@@ -10,7 +10,7 @@ At this moment in the: Backend_python direcotry --> There are backend tasks for 
 In directory: Blog 
 There is blog application for task 2.2. 
 Functionality below: 
-- As anonyus user - you can read all blog posts
+- As anonyus user - you can read all blog posts - preview window is limited to 200 characters. Click on it - can see whole message with creator.
 - After logging you are able to post new entries
 - As logged user you have permision to edit or delete posts that logged user is owner (except superuser)
 - You can create new accounts from page form
